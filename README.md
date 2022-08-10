@@ -6,7 +6,7 @@
 - This repo is all about my learning on HTML/CSS/Javascript
 
 ## Demos
-- [Project](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H), [solution]()
+- [Project QR Code](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H), [solution]()
 
 ## Reference
 - [Freecodecamp Learning](https://www.youtube.com/watch?v=SR5GxoFhIAU)
