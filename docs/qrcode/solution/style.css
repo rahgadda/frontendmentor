@@ -33,6 +33,9 @@ body {
     background-color: var(--white);
     width: 220px;
     border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
 }
 
 .image-qr-code{
