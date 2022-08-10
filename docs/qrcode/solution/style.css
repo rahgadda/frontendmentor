@@ -34,7 +34,13 @@ body {
 }
 
 .hearder-pragraph{
-    font-weight: bold;
+    font-weight: 700;
     color: var(--dark-blue);
+    margin: 10px 10px 20px 25px;
+}
+
+.detail-pragraph{
+    font-weight: 400;
+    color: var(--grayish-blue);
     margin: 10px 10px 20px 25px;
 }
