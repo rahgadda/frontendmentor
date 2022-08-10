@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100&display=swap');
+@media only screen and (min-device-width: 375px){}
+@media only screen and (min-device-width: 1440px){}
 
 :root{
 --white: hsl(0, 0%, 100%);
@@ -13,4 +15,8 @@
     box-sizing: border-box;
     font-size: 15px;
     font-family: "Outfit", sans-serif;
+}
+
+body {
+    background-color: var(--grayish-blue);
 }
