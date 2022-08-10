@@ -1,6 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100&display=swap');
-@media only screen and (min-device-width: 375px){}
-@media only screen and (min-device-width: 1440px){}
+@media only screen and (min-device-width: 375px){
+    .card{
+        margin: 70px
+    }
+}
+@media only screen and (min-device-width: 1440px){
+    .card{
+        margin: 150px
+    }
+}
 
 :root{
 --white: hsl(0, 0%, 100%);
@@ -36,14 +44,15 @@ body {
 .hearder-pragraph{
     font-weight: 700;
     color: var(--dark-blue);
-    margin: 10px 10px 20px 25px;
+    margin: 10px 15px 20px 15px;
     text-align: center;
 }
 
 .detail-pragraph{
     font-weight: 400;
     color: var(--grayish-blue);
-    margin: 10px 10px 20px 25px;
+    margin: 0px 15px 20px 25px;
     text-align: center;
-    font-size: 15px;
+    font-size: 13px;
+    padding: 0px 0px 20px 0px
 }
