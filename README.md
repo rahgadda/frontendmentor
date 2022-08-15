@@ -12,6 +12,7 @@
 - Tutorial
     - [CSS Full Course for Beginners](https://www.youtube.com/watch?v=n4R2E7O-Ngo)
     - [Selectors](https://www.youtube.com/watch?v=l1mER1bV0N0)
+    - [Units](https://www.youtube.com/watch?v=_ybQREu-NU0)
     - Layout
       - [FlexBox](https://www.youtube.comwatch?v=3YW65K6LcIA&t=738s)
       - [Grid](https://www.youtube.com/watch?v=0xMQfnTU6oo&t=3s)
