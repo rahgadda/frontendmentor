@@ -1,15 +1,33 @@
 # My Learning on CSS
 
 ## Basics
-- Selector
-  - tag: 
-  - id: 
-  - class: 
-  - nesting: 
-  - univesal:   
+CSS(Cascading Style Sheets) is used for presentation/apparence on HTML.
+- **Applying Css:** CSS can be added to HTML documents in 3 ways.
+  - **Inline:**
+    ```html
+    <h1 style="color:blue;">A Blue Heading</h1>
+    ```
+  - **Internal:**
+    ```html
+    <style>
+        h1   {color: blue;}
+    </style>
+    ```
+  - **External:**
+    ```html
+    <head>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    ```
+- **Selector:**
+  - **tag:** 
+  - **id:** 
+  - **class:** 
+  - **nesting:**
+  - **univesal:**   
     `*, *::before, *::after`
-- Properties
-- Box Model 
+- **Properties:**
+- **Box Model:** 
   - Browser rendering engine using this model to represent each element.
   - Every box is composed of four parts.
     - **Content:** Contains the `real` content of the element.
@@ -17,23 +35,23 @@
     - **Border:** Extends the padding area to include the element's borders.
     - **Margin:** Extends the border area to include an empty area used to separate the `element from its neighbors`.
     ![](./images/boxmodel.png)
-- Units 
-- Fonts
-- Transitions
-- Animations
-- Positioning
-  - Static
-  - Relative
-- Pseudo
-  - Classes
-  - Elements
-- Box Sizing
-  - content-box: `Default` The width and height properties (and min/max properties) includes only the content. Border and padding are not included.
-  - border-box: The width and height properties (and min/max properties) includes content, padding and border
-  - initial: Sets this property to its default value
-  - inherit: Inherits this property from its parent element
-- Box Alignment
-- Media queries
-- Layouts
-  - Flex Box
-  - Grid
+- **Units:**
+- **Fonts:**
+- **Positioning:**
+  - **Static:**
+  - **Relative:**
+- **Pseudo:**
+  - **Classes:**
+  - **Elements:**
+- **Transitions:**
+- **Animations:**
+- **Box Sizing:**
+  - **content-box:** `Default` The width and height properties (and min/max properties) includes only the content. Border and padding are not included.
+  - **border-box:** The width and height properties (and min/max properties) includes content, padding and border
+  - **initial:** Sets this property to its default value
+  - **inherit:** Inherits this property from its parent element
+- **Box Alignment:**
+- **Media Queries:**
+- **Layouts:**
+  - **Flex Box:**
+  - **Grid:**
