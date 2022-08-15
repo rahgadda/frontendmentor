@@ -4,8 +4,6 @@
 **CSS(Cascading Style Sheets)** is used for presentation/apparence on HTML.
 - **Applying CSS:**    
   - CSS can be added to HTML documents in 3 ways as given below.
-  - `Internal/External` rules that appear later in the code override earlier rules if both have the same specificity.
-  - `Inline` CSS take preceidence over `Internal/External`.
     - **Inline:**
       ```html
       <h1 style="color:blue;">A Blue Heading</h1>
@@ -15,22 +13,90 @@
       <style>
           h1   {color: blue;}
       </style>
+
+      <h1>A Blue Heading</h1>
       ```
     - **External:**
       ```html
       <head>
           <link rel="stylesheet" href="styles.css">
       </head>
+      
+      <h1>A Blue Heading</h1>
       ```
+  - `Internal/External` rules that appear later in the code override earlier rules if both have the same specificity.
+  - `Inline` CSS take preceidence over `Internal/External`.
 - **Selector:**
+  - Selector is used to identify which HTML elements should be selected to have the CSS property values inside the rule applied to them.
   - A more specific selector takes precedence over a less specific one. Example `id` overrides `class` overrides `element`.
-  - A css rule with `!important` always takes precedence.
-    - **tag:** 
-    - **id:** 
-    - **class:** 
+  - A CSS rule with `!important` always takes precedence.
+    - **univesal:**
+      ```html  
+      <style>
+          *,*::before,*::after{
+            color: blue;
+          }
+      </style>
+      
+      <h1 class="header">Testing</h1>
+      ```
+    - **element:**
+      ```html
+      <style>
+          h1{
+            color: blue;
+          }
+      </style>
+      
+      <h1 class="header">Testing</h1>
+      ``` 
+    - **id:**
+      ```html
+      <style>
+          #header{
+            color: blue;
+          }
+      </style>
+      
+      <h1 id="header">Testing</h1>
+      ```
+    - **class:**
+      ```html
+      <style>
+          .header{
+            color: blue;
+          }
+      </style>
+      
+      <h1 class="header">Testing</h1>
+      ``` 
+    - **attribue:**
+      ```html
+      <style>
+          [data-red]{
+            color: blue;
+          }
+      </style>
+      
+      <h1 class="header" data-red>Testing</h1>
+      ```
+      ```html
+      <style>
+          [data-red="red"]{
+            color: blue;
+          }
+      </style>
+      <h1 class="header" data-red="red">Testing</h1>
+      ```
     - **nesting:**
-    - **univesal:**   
-      `*, *::before, *::after`
+      - Select Multiple
+        - Elements
+      - Parent Child
+        - Direct
+        - Any Level
+        - Siblings
+          - Next 
+          - All
 - **Properties:**
 - **Box Model:** 
   - Browser rendering engine using this model to represent each element.
@@ -60,3 +126,7 @@
 - **Layouts:**
   - **Flex Box:**
   - **Grid:**
+
+## Appendix
+- Html syntax
+  ![](./images/html-syntax.png)

@@ -9,8 +9,13 @@
 - [Project QR Code](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H), [solution](https://rahulkirangaddam.is-a.dev/frontendmentor/qrcode/solution/index.html)
 
 ## Reference
-- [CSS Full Course for Beginners](https://www.youtube.com/watch?v=n4R2E7O-Ngo)
-- [Freecodecamp Learning](https://www.youtube.com/watch?v=SR5GxoFhIAU)
-- [Frontendmentor](https://www.frontendmentor.io/)
-- [FlexBox](https://www.youtube.com/watch?v=3YW65K6LcIA&t=738s)
-- [Grid](https://www.youtube.com/watch?v=0xMQfnTU6oo&t=3s)
+- Tutorial
+    - [CSS Full Course for Beginners](https://www.youtube.com/watch?v=n4R2E7O-Ngo)
+    - [Selectors](https://www.youtube.com/watch?v=l1mER1bV0N0)
+    - Layout
+      - [FlexBox](https://www.youtube.comwatch?v=3YW65K6LcIA&t=738s)
+      - [Grid](https://www.youtube.com/watch?v=0xMQfnTU6oo&t=3s)
+- Projects
+  - [HTML CSS JS projects](https://www.youtube.com/watch?v=EWv2jnhZErc)
+  - [Freecodecamp Learning](https://www.youtube.com/watch?v=SR5GxoFhIAU)
+  - [Frontendmentor](https://www.frontendmentor.io/)
