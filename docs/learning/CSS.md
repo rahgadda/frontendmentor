@@ -135,6 +135,12 @@
     - **Margin:** Extends the border area to include an empty area used to separate the `element from its neighbors`.
     ![](./images/boxmodel.png)
 - **Units:**
+  - **Absolute:**
+    - `px` pixle is the defulat absolute size used.
+  - **Relative:**
+    - `%`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;percentage
+    - `rem`&nbsp;Font size of the root element
+    - `em`&nbsp;&nbsp;&nbsp;Font size of the parent
 - **Fonts:**
 - **Positioning:**
   - **Static:**
