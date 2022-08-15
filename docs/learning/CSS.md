@@ -1,31 +1,36 @@
 # My Learning on CSS
 
 ## Basics
-CSS(Cascading Style Sheets) is used for presentation/apparence on HTML.
-- **Applying Css:** CSS can be added to HTML documents in 3 ways.
-  - **Inline:**
-    ```html
-    <h1 style="color:blue;">A Blue Heading</h1>
-    ```
-  - **Internal:**
-    ```html
-    <style>
-        h1   {color: blue;}
-    </style>
-    ```
-  - **External:**
-    ```html
-    <head>
-        <link rel="stylesheet" href="styles.css">
-    </head>
-    ```
+**CSS(Cascading Style Sheets)** is used for presentation/apparence on HTML.
+- **Applying CSS:**    
+  - CSS can be added to HTML documents in 3 ways as given below.
+  - `Internal/External` rules that appear later in the code override earlier rules if both have the same specificity.
+  - `Inline` CSS take preceidence over `Internal/External`.
+    - **Inline:**
+      ```html
+      <h1 style="color:blue;">A Blue Heading</h1>
+      ```
+    - **Internal:**
+      ```html
+      <style>
+          h1   {color: blue;}
+      </style>
+      ```
+    - **External:**
+      ```html
+      <head>
+          <link rel="stylesheet" href="styles.css">
+      </head>
+      ```
 - **Selector:**
-  - **tag:** 
-  - **id:** 
-  - **class:** 
-  - **nesting:**
-  - **univesal:**   
-    `*, *::before, *::after`
+  - A more specific selector takes precedence over a less specific one. Example `id` overrides `class` overrides `element`.
+  - A css rule with `!important` always takes precedence.
+    - **tag:** 
+    - **id:** 
+    - **class:** 
+    - **nesting:**
+    - **univesal:**   
+      `*, *::before, *::after`
 - **Properties:**
 - **Box Model:** 
   - Browser rendering engine using this model to represent each element.
