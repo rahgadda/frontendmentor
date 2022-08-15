@@ -30,7 +30,7 @@
   - Selector is used to identify which HTML elements should be selected to have the CSS property values inside the rule applied to them.
   - A more specific selector takes precedence over a less specific one. Example `id` overrides `class` overrides `element`.
   - A CSS rule with `!important` always takes precedence.
-    - **univesal:**
+    - **Univesal:**
       ```html  
       <style>
           *,*::before,*::after{
@@ -40,7 +40,7 @@
       
       <h1 class="header">Testing</h1>
       ```
-    - **element:**
+    - **Element:**
       ```html
       <style>
           h1{
@@ -50,7 +50,7 @@
       
       <h1 class="header">Testing</h1>
       ``` 
-    - **id:**
+    - **ID:**
       ```html
       <style>
           #header{
@@ -60,7 +60,7 @@
       
       <h1 id="header">Testing</h1>
       ```
-    - **class:**
+    - **Class:**
       ```html
       <style>
           .header{
@@ -70,33 +70,61 @@
       
       <h1 class="header">Testing</h1>
       ``` 
-    - **attribue:**
+    - **Attribue:**
       ```html
       <style>
-          [data-red]{
+          [data-blue]{
             color: blue;
           }
       </style>
       
-      <h1 class="header" data-red>Testing</h1>
+      <h1 class="header" data-blue>Testing</h1>
       ```
+      Exact Attribute Selector
       ```html
       <style>
-          [data-red="red"]{
+          [data-blue="blue"]{
             color: blue;
           }
       </style>
-      <h1 class="header" data-red="red">Testing</h1>
+
+      <h1 class="header" data-blue="blue">Testing</h1>
       ```
-    - **nesting:**
-      - Select Multiple
-        - Elements
-      - Parent Child
-        - Direct
-        - Any Level
-        - Siblings
-          - Next 
-          - All
+    - **Nesting:**
+      - Descendant
+        ```html
+        <style>
+          div span {
+            color: red;
+          }
+        </style>
+
+        <div>
+          <span>Selected</span>
+          <a>
+            <span>Selected</span>
+          </a>
+        </div>
+        <span>Not Selected</span>
+        ```
+      - Direct Descendant
+        ```html
+        <style>
+          div > span {
+            color: red;
+          }
+        </style>
+
+        <div>
+          <span>Selected</span>
+          <a>
+            <span>Not Selected</span>
+          </a>
+        </div>
+        <span>Not Selected</span>
+        ```
+      - Sibling 
+      - Adjacent Sibling
 - **Properties:**
 - **Box Model:** 
   - Browser rendering engine using this model to represent each element.
