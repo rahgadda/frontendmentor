@@ -21,4 +21,6 @@
   - [Freecodecamp Learning](https://www.youtube.com/watch?v=SR5GxoFhIAU)
   - [Freecodecamp Recipes Website](https://www.youtube.com/watch?v=-8LTPIJBGwQ)
   - [Frontendmentor](https://www.frontendmentor.io/)
-- [CSS Sytnax Validtor](https://jigsaw.w3.org/css-validator/)
+- Tools
+  - [CSS Sytnax Validtor](https://jigsaw.w3.org/css-validator/)
+  - [Specificity Calculator](https://specificity.keegan.st/)
