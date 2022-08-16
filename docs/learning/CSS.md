@@ -227,7 +227,7 @@ It includes simple changes in font,color,layout etc to complex animations as wel
     - **Font-weight:** This allows you to change the Boldness and lightness of the font. Value range from `normal|bold|bolder|lighter|[100  ... 900]]|initial|inherit` 
     - **Font-size:** Updates the size of the font.
     - **Font-family:** This property is used to change the type of the font, like Arial, sans-serif, etc.
-    - **Font-color:** updates the color of the font.
+    - **Font-color:** Updates the color of the font.
 - **Positioning:**
   - **Static:**
   - **Relative:**
