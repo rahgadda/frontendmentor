@@ -70,7 +70,8 @@
       
       <h1 class="header">Testing</h1>
       ``` 
-    - **Attribue:**
+    - **Attribue:**   
+      Has Attribute
       ```html
       <style>
           [data-blue]{
@@ -78,7 +79,7 @@
           }
       </style>
       
-      <h1 class="header" data-blue>Testing</h1>
+      <h1 class="header" data-blue>Selected</h1>
       ```
       Exact Attribute Selector
       ```html
@@ -88,7 +89,46 @@
           }
       </style>
 
-      <h1 class="header" data-blue="blue">Testing</h1>
+      <h1 class="header" data-blue="blue">Selected</h1>
+      ```
+      Begins With Attribute Selector
+      ```html
+      <style>
+          [data-active^="t"]{
+            color: blue;
+          }
+      </style>
+
+      <div data-active>Not Selected</div>
+      <div data-active="true">Selected</div>
+      <div data-active="test">Selected</div>
+      <div data-active="false">Not Selected</div>
+      ```
+      Ends With Attribute Selector
+      ```html
+      <style>
+          [data-active$="e"] {
+            color: red;
+          }
+      </style>
+
+      <div data-active>Not Selected</div>
+      <div data-active="apple">Selected</div>
+      <div data-active="true">Selected</div>
+      <div data-active="test">Not Selected</div>
+      ```
+      Substring Attribute Selector
+      ```html
+      <style>
+          [data-active*="e"] {
+            color: red;
+          }
+      </style>
+
+      <div data-active>Not Selected</div>
+      <div data-active="apple">Selected</div>
+      <div data-active="test">Selected</div>
+      <div data-active="gap">Not Selected</div>
       ```
     - **Nesting:**
       - Descendant
@@ -123,8 +163,33 @@
         </div>
         <span>Not Selected</span>
         ```
-      - Sibling 
+      - Sibling
+        ```html
+        <style>
+          div ~ a {
+            color: red;
+          }
+        </style>
+
+        <a>Not Selected</a>
+        <div></div>
+        <a>Selected</a>
+        <a>Selected</a>
+        ```
       - Adjacent Sibling
+        ```html
+        <style>
+          div + a {
+            color: red;
+          }
+        </style>
+        
+        <a>Not Selected</a>
+        <div></div>
+        <a>Selected</a>
+        <a>Not Selected</a>
+        ```
+      - 
 - **Properties:**
 - **Box Model:** 
   - Browser rendering engine using this model to represent each element.
