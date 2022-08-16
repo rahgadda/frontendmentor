@@ -220,7 +220,7 @@ It includes simple changes in font,color,layout etc to complex animations as wel
     - `rem`&nbsp;Font size of the root element
     - `em`&nbsp;&nbsp;&nbsp;Font size of the parent element
   - **Color:**
-    - **rbg(0,0,0):**
+    - **rbg(0,0,0):** Red, Blue & Green
     - **rbga(0,0,0,0.5):** Last field stands for opacity ranging from 0 to 1.
     - **hsl(0,100%,50%):**  Hue Saturation Lightness.
     - **hsla(0,100%,50%, 0.5):** Last field stands for opacity ranging from 0 to 1. 

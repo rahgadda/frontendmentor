@@ -24,3 +24,4 @@
 - Tools
   - [CSS Sytnax Validtor](https://jigsaw.w3.org/css-validator/)
   - [Specificity Calculator](https://specificity.keegan.st/)
+  - [Color Palette](https://coolors.co/generate)
