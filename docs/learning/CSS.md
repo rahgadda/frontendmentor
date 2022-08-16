@@ -245,5 +245,5 @@ It includes simple changes in font,color,layout etc to complex animations as wel
   - **Grid:**
 
 ## Appendix
-- Html syntax
+- Html syntax <br/><br/>
   ![](./images/html-syntax.png)
