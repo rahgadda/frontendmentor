@@ -219,6 +219,14 @@ It includes simple changes in font,color,layout etc to complex animations as wel
     - `%`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;percentage
     - `rem`&nbsp;Font size of the root element
     - `em`&nbsp;&nbsp;&nbsp;Font size of the parent element
+  - **Color:**
+    - **rbg(0,0,0):**
+    - **rbga(0,0,0,0.5):** Last field stands for opacity ranging from 0 to 1.
+    - **hsl(0,100%,50%):**  Hue Saturation Lightness.
+    - **hsla(0,100%,50%, 0.5):** Last field stands for opacity ranging from 0 to 1. 
+    - **Hexcode:**
+      - **ShortHand:** #FF0000 is #F00
+      - **Actual:** #808080
 - **Fonts:**   
   - The font property in CSS is used to customise the appearance of text. 
   - Font properties details:  
