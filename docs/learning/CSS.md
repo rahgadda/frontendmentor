@@ -1,7 +1,8 @@
 # My Learning on CSS
 
 ## Basics
-**CSS(Cascading Style Sheets)** is used for presentation/apparence on HTML.
+**CSS(Cascading Style Sheets)** is used for presentation/apparence on HTML.   
+It includes simple changes in font,color,layout etc to complex animations as well.
 - **Applying CSS:**    
   - CSS can be added to HTML documents in 3 ways as given below.
     - **Inline:**
@@ -120,7 +121,7 @@
       Substring Attribute Selector
       ```html
       <style>
-          [data-active*="e"] {
+          div[data-active*="e"] {
             color: red;
           }
       </style>
@@ -189,8 +190,20 @@
         <a>Selected</a>
         <a>Not Selected</a>
         ```
-      - 
-- **Properties:**
+- **Pseudo:**
+  - **Classes:**
+  - **Elements:**
+- **Properties:**   
+  Some of generally used properties
+  ```html
+  <style>
+   *{
+      padding: 0 0 0 100px; /* top right bottom left*/
+      border: width style color;
+      font: font-style font-variant font-weight font-size font-family;
+    }
+  </style>
+  ```
 - **Box Model:** 
   - Browser rendering engine using this model to represent each element.
   - Every box is composed of four parts.
@@ -205,14 +218,19 @@
   - **Relative:**
     - `%`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;percentage
     - `rem`&nbsp;Font size of the root element
-    - `em`&nbsp;&nbsp;&nbsp;Font size of the parent
-- **Fonts:**
+    - `em`&nbsp;&nbsp;&nbsp;Font size of the parent element
+- **Fonts:**   
+  - The font property in CSS is used to customise the appearance of text. 
+  - Font properties details:  
+    - **Font-style:** The font can be made `normal` , `italic`, or `oblique` with this attribute.
+    - **Font-variant:** You can use the font-variant property to convert the selected text from `normal` to `small-caps`.
+    - **Font-weight:** This allows you to change the Boldness and lightness of the font. Value range from `normal|bold|bolder|lighter|[100  ... 900]]|initial|inherit` 
+    - **Font-size:** Updates the size of the font.
+    - **Font-family:** This property is used to change the type of the font, like Arial, sans-serif, etc.
+    - **Font-color:** updates the color of the font.
 - **Positioning:**
   - **Static:**
   - **Relative:**
-- **Pseudo:**
-  - **Classes:**
-  - **Elements:**
 - **Transitions:**
 - **Animations:**
 - **Box Sizing:**
