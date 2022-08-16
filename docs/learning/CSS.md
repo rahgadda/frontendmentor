@@ -243,6 +243,22 @@ It includes simple changes in font,color,layout etc to complex animations as wel
 - **Layouts:**
   - **Flex Box:**
   - **Grid:**
+- **Variables:**
+  - CSS variables are declared using `--`
+  - `var(variable, Optional value)` is used to insert the value of a CSS variable.
+  ```html
+  <style>
+    :root{
+      --div-color: red;
+    }
+
+    div{
+      color: var(--div-color);
+    }
+  </style>
+  
+  <div>Selected</div>
+  ```
 
 ## Appendix
 - Html syntax <br/><br/>
