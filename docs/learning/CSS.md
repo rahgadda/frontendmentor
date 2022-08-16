@@ -200,6 +200,10 @@ It includes simple changes in font,color,layout etc to complex animations as wel
    *{
       padding: 0 0 0 100px; /* top right bottom left*/
       border: width style color;
+      margin: 0 0 0 100px; /* top right bottom left*/
+      outline: width style color;
+      outline-offset: -10px;
+      border-radius: 20px;
       font: font-style font-variant font-weight font-size font-family;
     }
   </style>
