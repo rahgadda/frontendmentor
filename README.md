@@ -6,7 +6,8 @@
 - This repo is all about my learning on vanila HTML/CSS/Javascript projects.
 
 ## Demos
-- [Project QR Code](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H), [solution](https://rahulkirangaddam.is-a.dev/frontendmentor/qrcode/solution/index.html)
+- [Project QR Code](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H)
+  - [solution](https://rahulkirangaddam.is-a.dev/frontendmentor/qrcode/solution/index.html)
 
 ## Reference
 - Tutorial
@@ -14,7 +15,7 @@
     - [Selectors](https://www.youtube.com/watch?v=l1mER1bV0N0)
     - [Units](https://www.youtube.com/watch?v=_ybQREu-NU0)
     - Layout
-      - [FlexBox](https://www.youtube.comwatch?v=3YW65K6LcIA&t=738s)
+      - [FlexBox](https://www.youtube.com/watch?v=3YW65K6LcIA&t=738s)
       - [Grid](https://www.youtube.com/watch?v=0xMQfnTU6oo&t=3s)
 - Projects
   - [HTML CSS JS projects](https://www.youtube.com/watch?v=EWv2jnhZErc)
